@@ -10,10 +10,10 @@
     "hash": "FB3F9DB5E0A93AECA35F975CB54893BBC46EECEDECF4D9B1088DBB1C378569B1",
     "architecture": {
         "64bit": {
-            "pre_install": "Rename-Item \"$dir\\Bandizip.x64.exe\" 'Bandizip.exe'"
+            "pre_install": "Rename-Item \"$dir\\Bandizip64.exe\" 'Bandizip.exe'"
         },
         "32bit": {
-            "pre_install": "Rename-Item \"$dir\\Bandizip.x86.exe\" 'Bandizip.exe'"
+            "pre_install": "Rename-Item \"$dir\\Bandizip32.exe\" 'Bandizip.exe'"
         }
     },
     "installer": {
