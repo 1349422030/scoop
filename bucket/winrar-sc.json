@@ -29,6 +29,11 @@
             "WinRAR"
         ]
     ],
+    "uninstaller": {
+        "script": [
+            "Remove-Item -Path C:\\Users\\l1349\\AppData\\Roaming\\WinRAR"
+        ]
+    },
     "persist": "rarreg.key",
     "checkver": "WinRAR and RAR ([\\d.]+) release",
     "autoupdate": {
