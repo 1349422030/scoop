@@ -1,5 +1,5 @@
 {
-    "version": "6.02",
+    "version": "6.11",
     "description": "Powerful archive manager",
     "homepage": "https://rarlab.com/",
     "license": {
@@ -9,12 +9,12 @@
     "notes": "Set up context menu within settings window.",
     "architecture": {
         "64bit": {
-            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/winrar-x64-602sc.exe#/dl.7z",
-            "hash": "B2654A54BB827E870A00AD89D5AD5166A2BF079F8C18FE2F22C548D3B6F1F0E1"
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/winrar-x64-611sc.exe#/dl.7z",
+            "hash": ""
         },
         "32bit": {
-            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/wrar602sc.exe#/dl.7z",
-            "hash": "4E84680EF3E214892DD8F43917F637040B105C74CDC74515755B519BA37079E3"
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/wrar611sc.exe#/dl.7z",
+            "hash": ""
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
@@ -30,9 +30,7 @@
         ]
     ],
     "uninstaller": {
-        "script": [
-            "Remove-Item -Path C:\\Users\\l1349\\AppData\\Roaming\\WinRAR"
-        ]
+        "script": "Remove-Item -Path C:\\Users\\l1349\\AppData\\Roaming\\WinRAR"
     },
     "persist": "rarreg.key",
     "checkver": "WinRAR and RAR ([\\d.]+) release",
