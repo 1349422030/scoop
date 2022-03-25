@@ -9,12 +9,10 @@
     "notes": "Set up context menu within settings window.",
     "architecture": {
         "64bit": {
-            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/winrar-x64-611sc.exe#/dl.7z",
-            "hash": ""
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/winrar-x64-611sc.exe#/dl.7z"
         },
         "32bit": {
-            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/wrar611sc.exe#/dl.7z",
-            "hash": ""
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/rrlb/wrar611sc.exe#/dl.7z"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
