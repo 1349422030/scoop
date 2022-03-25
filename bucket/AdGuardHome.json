@@ -1,5 +1,6 @@
 {
     "homepage": "https://adguard.com/adguard-home.html",
+    "description": "AdGuard Home",
     "license": "GPL-3.0-or-later",
     "version": "0.107.5",
     "architecture": {
@@ -15,6 +16,10 @@
     "checkver": {
         "github": "https://github.com/AdguardTeam/AdGuardHome"
     },
+    "persist": [
+        "AdGuardHome.yaml",
+        "data"
+    ],
     "autoupdate": {
         "architecture": {
             "64bit": {
