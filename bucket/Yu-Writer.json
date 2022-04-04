@@ -1,0 +1,38 @@
+{
+    "homepage": "https://ivarptr.github.io/yu-writer.site",
+    "version": "0.5.2",
+    "license": "Unlicense",
+    "description": "Efficient cross-platform Markdown text editor",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.0.5.2/yu-writer-beta-0.5.2-windows-x64.zip",
+            "hash": ""
+        },
+        "32bit": {
+            "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.0.5.2/yu-writer-beta-0.5.2-windows.zip",
+            "hash": ""
+        }
+    },
+    "extract_dir": "Yu Writer",
+    "bin": "Yu Writer.exe",
+    "shortcuts": [
+        [
+            "Yu Writer.exe",
+            "Yu Writer"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ivarptr/yu-writer.site",
+        "regex": "Beta (?:v|V)?([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.$version/yu-writer-beta-$version-windows-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/ivarptr/yu-writer.site/releases/download/beta.$version/yu-writer-beta-$version-windows.zip"
+            }
+        }
+    }
+}

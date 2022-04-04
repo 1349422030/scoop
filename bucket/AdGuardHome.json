@@ -13,9 +13,7 @@
             "hash": "7ad86fec6e220dfc90a5f9476cfb182fd0e08556a7619fe2146d4457d97b2e34"
         }
     },
-    "pre_install": [
-        "New-Item -Type File -Path \"$dir\\AdGuardHome.yaml\""
-    ],
+    "pre_install": "New-Item -Type File -Path \"$dir\\AdGuardHome.yaml\"",
     "bin": "AdGuardHome.exe",
     "extract_dir": "AdGuardHome",
     "checkver": {
