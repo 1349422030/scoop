@@ -13,7 +13,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/nihui/srmd-ncnn-vulkan/releases/download/20210210/srmd-ncnn-vulkan-20210210-windows.zip",
-            "hash": "0c7436ca5197e0ce2e8be202a298c2821d035693df39a1045341cc6975bb75fc",
+            "hash": "",
             "extract_dir": "srmd-ncnn-vulkan-20210210-windows"
         }
     },
