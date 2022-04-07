@@ -13,7 +13,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/nihui/realsr-ncnn-vulkan/releases/download/20210210/realsr-ncnn-vulkan-20210210-windows.zip",
-            "hash": "",
+            "hash": "343640733386a0522c32185f689c3cea80d5828b0a287e8dd96d12be1a0051c6",
             "extract_dir": "realsr-ncnn-vulkan-20210210-windows"
         }
     },
