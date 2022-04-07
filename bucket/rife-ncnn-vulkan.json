@@ -2,7 +2,7 @@
     "homepage": "https://github.com/nihui/rife-ncnn-vulkan",
     "description": "RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library",
     "license": "MIT",
-    "version": "20210210",
+    "version": "20220330",
     "checkver": "github",
     "bin": [
         [
@@ -12,9 +12,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nihui/rife-ncnn-vulkan/releases/download/20210210/rife-ncnn-vulkan-20210210-windows.zip",
-            "hash": "0c7436ca5197e0ce2e8be202a298c2821d035693df39a1045341cc6975bb75fc",
-            "extract_dir": "rife-ncnn-vulkan-20210210-windows"
+            "url": "https://github.com/nihui/rife-ncnn-vulkan/releases/download/20220330/rife-ncnn-vulkan-20220330-windows.zip",
+            "hash": "",
+            "extract_dir": "rife-ncnn-vulkan-20220330-windows"
         }
     },
     "autoupdate": {
